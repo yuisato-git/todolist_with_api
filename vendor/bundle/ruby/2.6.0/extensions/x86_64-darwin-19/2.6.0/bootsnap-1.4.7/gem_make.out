@@ -1,0 +1,15 @@
+current directory: /Users/yuisato/Desktop/todolist_with_api/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.7/ext/bootsnap
+/Users/yuisato/.rbenv/versions/2.6.1/bin/ruby -I /Users/yuisato/.rbenv/versions/2.6.1/lib/ruby/2.6.0 -r ./siteconf20200801-9765-1q1wgve.rb extconf.rb
+creating Makefile
+
+current directory: /Users/yuisato/Desktop/todolist_with_api/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.7/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/yuisato/Desktop/todolist_with_api/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.7/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/yuisato/Desktop/todolist_with_api/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.7/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20200801-9765-12wluk9/bootsnap
