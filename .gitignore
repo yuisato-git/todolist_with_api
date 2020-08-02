@@ -30,6 +30,10 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
+# Gemfile
+/vendor/bundle
+/bundle
+
 /public/packs
 /public/packs-test
 /node_modules

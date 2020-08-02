@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+TodoItem.create(text: 'test1')
+TodoItem.create(text: 'test2')
+TodoItem.create(text: 'test3')
+TodoItem.create(text: 'test4')
+TodoItem.create(text: 'test5')
