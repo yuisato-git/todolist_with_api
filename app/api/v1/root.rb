@@ -5,6 +5,7 @@ module V1
     content_type :json, 'application/json'
 
     mount V1::Resources::TodoItems
+    mount V1::Resources::TodoComments
 
     # swaggerの設定
     if defined? GrapeSwaggerRails

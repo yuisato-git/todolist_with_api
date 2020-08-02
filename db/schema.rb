@@ -10,7 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_08_02_033759) do
+ActiveRecord::Schema.define(version: 2020_08_02_084519) do
+
+  create_table "todo_comments", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.bigint "todo_item_id"
+    t.string "text"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["todo_item_id"], name: "index_todo_comments_on_todo_item_id"
+  end
 
   create_table "todo_items", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "text"
@@ -18,4 +26,5 @@ ActiveRecord::Schema.define(version: 2020_08_02_033759) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "todo_comments", "todo_items"
 end
