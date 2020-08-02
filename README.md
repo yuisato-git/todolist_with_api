@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* http://localhost:3000/docs でswaggerを閲覧できる
 
-Things you may want to cover:
+### サーバサイド API課題 ver.1
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+要件
+* todo_itemsの作成・削除・編集
+* todo_commentsの作成・削除・編集
+* 特定のtodo_itemsにひもづくtodo_commentsを一括削除
